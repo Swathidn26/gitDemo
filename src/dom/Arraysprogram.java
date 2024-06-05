@@ -4,12 +4,12 @@ public class Arraysprogram {
 
 	public static void main(String[] args) {
 
-		int arr[] = {10,20,30,40,50};
-		int n=2;
+		int arr[] = new int []{10,20,30,40,50};
+		int n=1;
 		
 		
 		for(int i =0;i<arr.length;i++) {
-			System.out.println("original array" +arr[i]);
+			System.out.println( arr[i]+ " ");
 		}
 		
 		for(int i=0;i<n;i++) {
@@ -21,9 +21,9 @@ public class Arraysprogram {
 			}
 			arr[0]=last;
 		}
-		
+		System.out.println("Right shift array: ");
 		for(int i=0;i<arr.length;i++) {
-			System.out.println("Right shift of array" +arr[i]);
+			System.out.println(arr[i]+ " ");
 		}
 		
 	}

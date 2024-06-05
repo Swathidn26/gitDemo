@@ -11,7 +11,7 @@ public class CountStrings {
 				count++;
 			}
 		}
-		System.out.print("the number of Characters preset is: "+count);
+		System.out.print("the number of Characters present is: "+count);
 
 	}
 
